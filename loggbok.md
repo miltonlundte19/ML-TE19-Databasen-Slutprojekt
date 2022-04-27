@@ -24,10 +24,16 @@ två delar en statisk med 11ty och en som hämtar och ändrar skaer på data bas
 --- 
 
  - tide - (inte fasna på detaljerna. få det att fungera och sedan fiksa små saker)
- - 
+
 ---
 
 tyker att databas är intresant och bakend  
 (förstå hur man gör en mer kompliserad databas)
 
 ---
+
+## v. 17 Ons
+
+i måndags så gjorde jag bara början på planeringen till prodjektet.  
+segt men kom fram till vad jag skulle göra.  
+skriva mer på planeringen och söka upp lite mer på hur man gör en inlågning.  
