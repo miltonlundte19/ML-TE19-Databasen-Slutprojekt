@@ -17,14 +17,14 @@ Filmdatabas
 
 Veckoplanering
 
-| v.  | Mån | Hur går det? | Ons | Hur går det? | Fre       | Hur går det? |
-| --- | --- | ------------ | --- | ------------ | --------- | ------------ |
-| 17  | -   | -            | -   | -            | planering |              |
-| 18  |     |              |     |              |           |              |
-| 19  |     |              |     |              |           |              |
-| 20  |     |              |     |              |           |              |
-| 21  |     |              |     |              |           |              |
-| 22  |     |              |     |              |           |              |
+| v.  | Mån                     | Hur går det? | Ons | Hur går det? | Fre       | Hur går det? |
+| --- | ----------------------- | ------------ | --- | ------------ | --------- | ------------ |
+| 17  | -                       | -            | -   | -            | planering |              |
+| 18  | göra databas tabellerna |              |     |              |           |              |
+| 19  |                         |              |     |              |           |              |
+| 20  |                         |              |     |              |           |              |
+| 21  |                         |              |     |              |           |              |
+| 22  |                         |              |     |              |           |              |
 
 ## Databas
 
@@ -32,7 +32,9 @@ Använd gärna [draw.io](https://app.diagrams.net/) för att planera din databas
 När den är klar kan du köra en MYSQL describe och klistra in resultatet i denna fil.
 Exportera även databasen.
 
-två tabeler en för inlogningen och en för filmerna.
+Databasen har typ två delar ena är för filmerna och andra är för inloggningen (kan komma en till del som är historia som kopplar film med användare och när ändringen hände).
+
+tabellerna för filmdatas använder jag samma som [jens](https://github.com/jensnti) gjorde från [movies](https://github.com/jensnti/movies/blob/main/_2021-05-05_150019_jens.sql)
 
 ## Struktur
 
@@ -56,8 +58,8 @@ Om man är inloggad så kan man ändra på saker.
 GET /movies/CUD
 ```
 
-En egen rout för att "lätare" kuna ändra filmerna  
-(kan ändras till en add i stäle)
+En egen rout för att "lättare" kuna ändra filmerna  
+(kan ändras till en add i ställe)
 
 ```
 GET /login
