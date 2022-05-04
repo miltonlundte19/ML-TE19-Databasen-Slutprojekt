@@ -43,6 +43,14 @@ skriva mer på planeringen och söka upp lite mer på hur man gör en inlågning
 
 ## V. 17 Fre
 
-Föra gången skrev jag på loggboken.
-jag han inte det jag skulle göra den dagen.
+Föra gången skrev jag på loggboken.  
+jag han inte det jag skulle göra den dagen.  
 struktuera om i prodjektet och sedan skriva ner i planeringen och sedan söka upp lite mer på hur man gör en inlågning.
+
+---
+
+## V. 18 Ons
+
+föra gången så struktuerade jag om prodjektets mapar och skrev vidare på planeringen/dokumenteringen.  
+jag han inte så lånkt som jag ville och det tog lite längre tid en vad jag velat.  
+dena gången ska jag göra färdigt planeringen för databasen och sedan börja på inlågnings biten av sidan/prodjektet.
