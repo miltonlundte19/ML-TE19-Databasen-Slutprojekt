@@ -9,7 +9,7 @@ Filmdatabas
 | Vecka | Hur går det? | Deadlines |
 | ----- | ------------ | --------- |
 | 17    |              | planering |
-| 18    |              |           |
+| 18    |              | databasen |
 | 19    |              |           |
 | 20    |              |           |
 | 21    |              |           |
@@ -17,14 +17,14 @@ Filmdatabas
 
 Veckoplanering
 
-| v.  | Mån                     | Hur går det? | Ons | Hur går det? | Fre       | Hur går det? |
-| --- | ----------------------- | ------------ | --- | ------------ | --------- | ------------ |
-| 17  | -                       | -            | -   | -            | planering |              |
-| 18  | göra databas tabellerna |              |     |              |           |              |
-| 19  |                         |              |     |              |           |              |
-| 20  |                         |              |     |              |           |              |
-| 21  |                         |              |     |              |           |              |
-| 22  |                         |              |     |              |           |              |
+| v.  | Mån                     | Hur går det? | Ons                     | Hur går det? | Fre                     | Hur går det? |
+| --- | ----------------------- | ------------ | ----------------------- | ------------ | ----------------------- | ------------ |
+| 17  | -                       | -            | -                       | -            | planering               |              |
+| 18  | göra databas tabellerna | inget        | göra databas tabellerna | inte så bra  | göra databas tabellerna |              |
+| 19  |                         |              |                         |              |                         |              |
+| 20  |                         |              |                         |              |                         |              |
+| 21  |                         |              |                         |              |                         |              |
+| 22  |                         |              |                         |              |                         |              |
 
 ## Databas
 
