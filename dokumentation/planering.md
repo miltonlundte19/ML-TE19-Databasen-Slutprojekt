@@ -10,21 +10,21 @@ Filmdatabas
 | ----- | ------------ | --------- |
 | 17    |              | planering |
 | 18    |              | databasen |
-| 19    |              |           |
+| 19    |              | inlogning |
 | 20    |              |           |
 | 21    |              |           |
 | 22    |              |           |
 
 Veckoplanering
 
-| v.  | Mån                     | Hur går det? | Ons                     | Hur går det? | Fre                     | Hur går det? |
-| --- | ----------------------- | ------------ | ----------------------- | ------------ | ----------------------- | ------------ |
-| 17  | -                       | -            | -                       | -            | planering               |              |
-| 18  | göra databas tabellerna | inget        | göra databas tabellerna | inte så bra  | göra databas tabellerna |              |
-| 19  |                         |              |                         |              |                         |              |
-| 20  |                         |              |                         |              |                         |              |
-| 21  |                         |              |                         |              |                         |              |
-| 22  |                         |              |                         |              |                         |              |
+| v.  | Mån                                  | Hur går det? | Ons                     | Hur går det? | Fre                     | Hur går det? |
+| --- | ------------------------------------ | ------------ | ----------------------- | ------------ | ----------------------- | ------------ |
+| 17  | -                                    | -            | -                       | -            | planering               |              |
+| 18  | göra databas tabellerna              | inget        | göra databas tabellerna | inte så bra  | göra databas tabellerna |              |
+| 19  | börga göra inlognings biten av sidan |              | inlogningen             |              | inplementera filmerna   |              |
+| 20  |                                      |              |                         |              |                         |              |
+| 21  |                                      |              |                         |              |                         |              |
+| 22  |                                      |              |                         |              |                         |              |
 
 ## Databas
 

@@ -2,4 +2,9 @@
 
 ## Använder
 
--
+-   express
+-   mysql2
+-   nunjuks
+-   dotenv
+-   eslint
+-   prettier
