@@ -32,7 +32,7 @@ Använd gärna [draw.io](https://app.diagrams.net/) för att planera din databas
 När den är klar kan du köra en MYSQL describe och klistra in resultatet i denna fil.
 Exportera även databasen.
 
-Databasen har typ två delar ena är för filmerna och andra är för inloggningen (kan komma en till del som är historia som kopplar film med användare och när ändringen hände).
+Databasen har typ två delar ena är för filmerna och andra är för inloggningen.
 
 tabellerna för filmdatas använder jag samma som [jens](https://github.com/jensnti) gjorde från [movies](https://github.com/jensnti/movies/blob/main/_2021-05-05_150019_jens.sql)
 
