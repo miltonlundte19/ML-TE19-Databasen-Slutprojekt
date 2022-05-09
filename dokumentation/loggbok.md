@@ -64,3 +64,11 @@ jag blev upptagen med att titta i genom exemplana på clasrom för att titta på
 jag tittade i genom exempels på clasrom och hur jag ska visa databasen i planeringen.  
 jag han inte så mycket och inte vad jag skulle göra den lektionen.  
 göra färdigt databasen och sedan skriva ner dependencies och npm in dem.
+
+---
+
+## V.19 Mån
+
+jag gjorde färdigt databasen och ladadel in npm paketen och skrev ner dependencies
+det gick bra men jag tittade på anat också (som inte behövs nu)
+börja på inloggningen
