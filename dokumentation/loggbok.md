@@ -69,6 +69,14 @@ göra färdigt databasen och sedan skriva ner dependencies och npm in dem.
 
 ## V.19 Mån
 
-jag gjorde färdigt databasen och ladadel in npm paketen och skrev ner dependencies
-det gick bra men jag tittade på anat också (som inte behövs nu)
-börja på inloggningen
+jag gjorde färdigt databasen och ladadel in npm paketen och skrev ner dependencies.  
+det gick bra men jag tittade på anat också (som inte behövs nu).  
+börja på inloggningen.
+
+---
+
+## V.19 Ons
+
+Jag började på att göra routes och views.  
+det gick bra.  
+börja på logiken för inlagringen.
