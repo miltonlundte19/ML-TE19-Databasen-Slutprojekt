@@ -6,25 +6,25 @@ Filmdatabas
 
 ## Deadlines
 
-| Vecka | Hur går det? | Deadlines |
-| ----- | ------------ | --------- |
-| 17    |              | planering |
-| 18    |              | databasen |
-| 19    |              | inlogning |
-| 20    |              |           |
-| 21    |              |           |
-| 22    |              |           |
+| Vecka | Hur går det? | Deadlines  |
+| ----- | ------------ | ---------- |
+| 17    |              | planering  |
+| 18    |              | databasen  |
+| 19    |              | inloggning |
+| 20    |              |            |
+| 21    |              |            |
+| 22    |              |            |
 
 Veckoplanering
 
-| v.  | Mån                                  | Hur går det? | Ons                     | Hur går det? | Fre                     | Hur går det? |
-| --- | ------------------------------------ | ------------ | ----------------------- | ------------ | ----------------------- | ------------ |
-| 17  | -                                    | -            | -                       | -            | planering               |              |
-| 18  | göra databas tabellerna              | inget        | göra databas tabellerna | inte så bra  | göra databas tabellerna |              |
-| 19  | börga göra inlognings biten av sidan |              | inlogningen             |              | inplementera filmerna   |              |
-| 20  |                                      |              |                         |              |                         |              |
-| 21  |                                      |              |                         |              |                         |              |
-| 22  |                                      |              |                         |              |                         |              |
+| v.  | Mån                                   | Hur går det? | Ons                     | Hur går det? | Fre                     | Hur går det? |
+| --- | ------------------------------------- | ------------ | ----------------------- | ------------ | ----------------------- | ------------ |
+| 17  | -                                     | -            | -                       | -            | planering               |              |
+| 18  | göra databas tabellerna               | inget        | göra databas tabellerna | inte så bra  | göra databas tabellerna |              |
+| 19  | börga göra inloggnings biten av sidan |              | inloggningen            |              | inloggningen            |              |
+| 20  | implementera filmerna                 |              | filmer                  |              | filmer/stiles           |              |
+| 21  |                                       |              |                         |              |                         |              |
+| 22  |                                       |              |                         |              |                         |              |
 
 ## Databas
 
