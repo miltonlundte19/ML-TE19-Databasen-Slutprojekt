@@ -80,3 +80,11 @@ börja på inloggningen.
 Jag började på att göra routes och views.  
 det gick bra.  
 börja på logiken för inlagringen.
+
+---
+
+## V.19 Fre
+
+jag började på att göra route för inloggningen.  
+jag han inte så mycket.  
+börja med kåplingen med databasen.
