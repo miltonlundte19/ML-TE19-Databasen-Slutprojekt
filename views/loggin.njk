@@ -1,6 +1,36 @@
-{% extends "layout.njk" %}
+{% extends "layout.njk" %} {% block content %} {% include
+'components/navbarl.njk' %}
 
-{% block content %}
-{% include 'components/navbarl.njk' %}
-    <p>loggin</p>
+<main class="container mt-5">
+    <form id="log-in" method="post">
+        <div class="input-group mb-3">
+            <input
+                required
+                name="username"
+                id="username"
+                type="text"
+                class="form-control"
+                placeholder="Username"
+                aria-label="Username"
+                aria-describedby="basic-addon1"
+            />
+        </div>
+
+        <div class="input-group mb-3">
+            <input
+                required
+                name="password"
+                id="password"
+                type="password"
+                class="form-control"
+                placeholder="Password"
+                aria-label="Password"
+                aria-describedby="basic-addon2"
+            />
+        </div>
+        <button type="submit" class="btn btn-primary">Log in</button>
+    </form>
+</main>
+
+<script src="/javascripts/loggin.js"></script>
 {% endblock %}
