@@ -88,3 +88,11 @@ börja på logiken för inlagringen.
 jag började på att göra route för inloggningen.  
 jag han inte så mycket.  
 börja med kåplingen med databasen.
+
+---
+
+## V.20 Mån
+
+jag började med att göra frontenden till log in.  
+jag han inte så mycket av det.  
+fortsäta på att göra inlågningen.
