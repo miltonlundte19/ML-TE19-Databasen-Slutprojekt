@@ -96,3 +96,18 @@ börja med kåplingen med databasen.
 jag började med att göra frontenden till log in.  
 jag han inte så mycket av det.  
 fortsäta på att göra inlågningen.
+
+---
+
+## V.20 Ons
+
+började med inlogningen js på sidan.  
+han inte mycket.
+
+-   ***
+
+## V.20 Fre
+
+jag satin rauten till login i app.js  
+kunde inte hinna mer.  
+görja färdigt inlågningen.
