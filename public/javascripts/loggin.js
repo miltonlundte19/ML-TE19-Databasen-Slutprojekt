@@ -10,30 +10,40 @@ form.addEventListener('submit', (event) => {
     const ispasswordvalid = pasisvalid(password);
 
     if (isusernamevalid && ispasswordvalid) {
-        const respons = fetch('/api/login', {
+        // let respons;
+
+        fetch('/api/login', {
             method: 'POST',
             body: JSON.stringify({ U: username.value, P: password.value }),
             headers: {
                 Accept: 'application/json',
                 'Content-Type': 'application/json'
             }
-        });
-        console.log(respons);
+        })
+            .then((response) => response.json())
+            .then((data) => {
+                console.log(data);
+            });
+        // console.log('respons:');
+        // console.log(respons);
     }
 });
 
 function pasisvalid(input) {
-    if (input.value.trim() === '') {
+    if (input.value.trim() === '' || input.value === null) {
         return showError(input, PASSWORD_REQUIRED);
     }
     if (input.value.length < 4) {
         return showError(input, PASSWORD_TO_SHORT);
     }
-    return showSuccess(input);
+    if (input.value.match(mailformat)) {
+        return showSuccess(input);
+    }
+    return showError(input, PASSWORD_REQU_CAREC);
 }
 
 function userisvalid(input) {
-    if (input.value.trim() === '') {
+    if (input.value.trim() === '' || input.value === null) {
         return showError(input, NAME_REQUIRED);
     }
     if (input.value.length < 4) {
@@ -61,5 +71,9 @@ const NAME_REQUIRED = 'Please enter your username';
 const NAME_TO_SHORT = 'Username to short';
 const PASSWORD_REQUIRED = 'Please enter your password';
 const PASSWORD_TO_SHORT = 'Password to short';
+const PASSWORD_REQU_CAREC = 'A-a-0';
+const letters = /^[0-9a-zA-Z]+$/;
+const mailformat =
+    /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{4,20}$/;
 
 // https://www.javascripttutorial.net/javascript-dom/javascript-form/
