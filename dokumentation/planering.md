@@ -19,7 +19,7 @@ Veckoplanering
 
 | v.  | Mån                                   | Hur går det? | Ons                     | Hur går det? | Fre                     | Hur går det? |
 | --- | ------------------------------------- | ------------ | ----------------------- | ------------ | ----------------------- | ------------ |
-| 17  | -                                     | -            | -                       | -            | planering               |              |
+| 17  | \-                                    | \-           | -                       | \-           | planering               |              |
 | 18  | göra databas tabellerna               | inget        | göra databas tabellerna | inte så bra  | göra databas tabellerna |              |
 | 19  | börga göra inloggnings biten av sidan |              | inloggningen            |              | inloggningen            | han inte     |
 | 20  | implementera filmerna                 |              | filmer                  |              | filmer/stiles           |              |
