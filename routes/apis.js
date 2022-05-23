@@ -1,51 +1,68 @@
 const express = require('express');
 const router = express.Router();
 const pool = require('../database');
-// const bcrypt = require('bcrypt');
+const bcrypt = require('bcrypt');
 
 router.post('/login', async (req, res, next) => {
-    console.log(req.body);
     const username = req.body.U;
     const password = req.body.P;
-    console.log(username, password);
-    console.log('hej');
     if (userisvalid(username) && pasisvalid(password)) {
-        console.log('hej1');
         await pool
-            .promes()
+            .promise()
             .query('SELECT * FROM users WHERE name = ?', [username])
             .then((respons) => {
-                console.log('hej2');
-                console.log(respons);
+                respons = respons[0][0];
                 console.log('hej3');
+                bcrypt.compare(
+                    password,
+                    respons.password,
+                    function (err, result) {
+                        console.log('hej3-1');
+                        if (err) {
+                            return res.status(500).json({
+                                S: false,
+                                F: 'bcrypt'
+                            });
+                        }
+                        console.log(result);
+                        if (result) {
+                            req.session.loginToken = username;
+                            return res.json({
+                                S: true,
+                                Rd: '/'
+                            });
+                        }
+                    }
+                );
+            })
+            .catch((err) => {
+                console.log(err);
+                return res.status(500).json({
+                    S: false,
+                    F: 'pool'
+                });
             });
     }
     res.json({
-        S: true
+        S: false
     });
 });
 
 function userisvalid(username) {
-    console.log('1');
-    console.log(username.length);
     if (username.length > 4) {
-        console.log('1-1');
         return true;
     }
-    console.log('1-2');
     return false;
 }
 
 function pasisvalid(password) {
-    console.log('2');
     if (password.length > 4 && password.match(letters)) {
-        console.log('2-1');
         return true;
     }
-    console.log('2-2');
     return false;
 }
 
-const letters = /^[0-9a-zA-Z]+$/;
+const letters =
+    /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{4,20}$/;
 
 module.exports = router;
