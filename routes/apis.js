@@ -32,6 +32,9 @@ router.post('/login', async (req, res, next) => {
                                 Rd: '/'
                             });
                         }
+                        res.json({
+                            S: false
+                        });
                     }
                 );
             })
@@ -43,9 +46,6 @@ router.post('/login', async (req, res, next) => {
                 });
             });
     }
-    res.json({
-        S: false
-    });
 });
 
 function userisvalid(username) {
