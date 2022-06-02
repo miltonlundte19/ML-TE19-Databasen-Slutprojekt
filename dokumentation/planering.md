@@ -12,29 +12,35 @@ Filmdatabas
 | 18    |              | databasen             |
 | 19    | han inte     | inloggning            |
 | 20    |              | inloggningen och film |
-| 21    |              |                       |
-| 22    |              |                       |
+| 21    |              | \-                    |
+| 22    |              | PM                    |
 
 Veckoplanering
 
 | v.  | Mån                                   | Hur går det? | Ons                     | Hur går det? | Fre                     | Hur går det? |
 | --- | ------------------------------------- | ------------ | ----------------------- | ------------ | ----------------------- | ------------ |
-| 17  | \-                                    | \-           | -                       | \-           | planering               |              |
-| 18  | göra databas tabellerna               | inget        | göra databas tabellerna | inte så bra  | göra databas tabellerna |              |
-| 19  | börga göra inloggnings biten av sidan |              | inloggningen            |              | inloggningen            | han inte     |
+| 17  | \-                                    | \-           | -                       | \-           | planering               | \-           |
+| 18  | göra databas tabellerna               | inget        | göra databas tabellerna | inte så bra  | göra databas tabellerna | \-           |
+| 19  | börga göra inloggnings biten av sidan | \-           | inloggningen            | \-           | inloggningen            | han inte     |
 | 20  | implementera filmerna                 |              | filmer                  |              | filmer/stiles           |              |
-| 21  |                                       |              |                         |              |                         |              |
-| 22  |                                       |              |                         |              |                         |              |
+| 21  | \-                                    | \-           | \-                      | \-           | \-                      | \-           |
+| 22  | PM                                    | början       | PM                      |              | PM                      |              |
 
 ## Databas
 
+<!--
 Använd gärna [draw.io](https://app.diagrams.net/) för att planera din databas, det finns mallar.
 När den är klar kan du köra en MYSQL describe och klistra in resultatet i denna fil.
 Exportera även databasen.
+-->
 
 Databasen har typ två delar ena är för filmerna och andra är för inloggningen.
 
 tabellerna för filmdatas använder jag samma som [jens](https://github.com/jensnti) gjorde från [movies](https://github.com/jensnti/movies/blob/main/_2021-05-05_150019_jens.sql)
+
+en export av [databasen](/../movis.sql)
+
+en modifierad varson av users [tabelen](/./minlun_users.sql) så att den fungerar med tabel plus
 
 ## Struktur
 
