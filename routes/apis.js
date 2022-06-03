@@ -9,7 +9,10 @@ router.post('/login', async (req, res, next) => {
     if (userisvalid(username) && pasisvalid(password)) {
         await pool
             .promise()
-            .query('SELECT * FROM users WHERE name = ?', [username])
+            .query(
+                `SELECT * FROM ${process.env.TABLE_PREFIX}users WHERE name = ?`,
+                [username]
+            )
             .then((respons) => {
                 respons = respons[0][0];
                 console.log('hej3');
