@@ -2,6 +2,9 @@
     "name": "ml-te19-databasen-slutprojekt",
     "version": "0.0.0",
     "private": true,
+    "engines": {
+        "node": "14.x"
+    },
     "scripts": {
         "dev": "nodemon -e js,html,njk ./bin/www",
         "start": "node ./bin/www"
@@ -15,7 +18,6 @@
         "express-session": "^1.17.2",
         "morgan": "~1.9.1",
         "mysql2": "^2.3.3",
-        "node-sass-middleware": "0.11.0",
         "nunjucks": "^3.2.3"
     },
     "devDependencies": {
