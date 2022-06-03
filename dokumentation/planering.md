@@ -38,7 +38,7 @@ Databasen har typ två delar ena är för filmerna och andra är för inloggning
 
 tabellerna för filmdatas använder jag samma som [jens](https://github.com/jensnti) gjorde från [movies](https://github.com/jensnti/movies/blob/main/_2021-05-05_150019_jens.sql)
 
-en export av [databasen](/../movis.sql)
+en export av [databasen](/./movis.sql)
 
 en modifierad varson av users [tabelen](/./minlun_users.sql) så att den fungerar med tabel plus
 

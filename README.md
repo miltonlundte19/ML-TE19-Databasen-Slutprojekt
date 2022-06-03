@@ -4,9 +4,9 @@
 
 Dokumention fins i mapen [dokumentaion](dokumentation/).
 
--   [PM](dokumention/postmortem) (postmortem)
--   [Loggbok](dokumention/loggbok)
--   [Planering](dokumention/planering)
+-   [PM](dokumentation/postmortem.md) (postmortem)
+-   [Loggbok](dokumentation/loggbok.md)
+-   [Planering](dokumentation/planering.md)
 
 ## Använder
 
